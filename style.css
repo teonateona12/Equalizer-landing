@@ -1,0 +1,148 @@
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  background-color: #fcfaf9;
+  background-image: url(./assets/bg-main-mobile.png);
+  background-position-y: -36vh;
+  background-repeat: no-repeat;
+}
+
+header p {
+  font-size: 26px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #191826;
+}
+header {
+  padding: 40px 25px 0 25px;
+}
+header h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+
+  letter-spacing: -0.454545px;
+
+  color: #191826;
+}
+.black-div {
+  background-color: #191826;
+  border-radius: 12px;
+  margin-top: 50%;
+  min-height: 55vh;
+}
+
+.img-two img {
+  max-width: 100%;
+}
+.img img {
+  margin: auto;
+  display: flex;
+}
+.img-two {
+  width: 50%;
+  margin: auto;
+  margin-top: -75vh;
+}
+.orange-div {
+  padding: 48px 37px 12px 37px;
+  background-color: #fa7453;
+  border-radius: 12px;
+}
+.orange-div p,
+.text,
+.price-span {
+  color: white;
+}
+.price-span {
+  font-size: 65px;
+  font-weight: 700;
+}
+.btn-one {
+  background-color: #191826;
+  color: white;
+  border-radius: 12px;
+  padding: 15px 77px 15px 77px;
+  border: none;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.btn-two {
+  background-color: white;
+  color: #191826;
+  padding: 15px 77px 15px 77px;
+  border: none;
+  border-radius: 12px;
+  width: 300px;
+  margin: auto;
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+}
+.icon {
+  margin-right: 10px;
+}
+.white-div {
+  /* display: flex; */
+  padding: 64px 25px 80px 25px;
+}
+.icon-div {
+  margin-top: 64px;
+}
+.span-two {
+  font-weight: bold;
+}
+.img-tablet {
+  display: none;
+}
+@media screen and (min-width: 775px) {
+  .img-tablet {
+    display: block;
+  }
+  .main {
+    display: flex;
+    justify-content: space-between;
+    padding: 39px;
+  }
+  .img-two {
+    width: 29%;
+    margin-left: 94px;
+  }
+  .orange-div {
+    width: 400px;
+    margin-left: 37vw;
+    margin-top: -27vh;
+  }
+  .white-div {
+    display: flex;
+    justify-content: space-between;
+  }
+  .black-div {
+    margin: 20px;
+    margin-top: 30%;
+  }
+  .logo-text {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width:1440px) {
+    .orange-div{
+        margin-left: 47vw;
+        margin-top: -50vh;
+    }
+    .img-two{
+        width: 20%;
+    }
+    .black-div{
+        margin: 165px;
+    }
+    .main, .white-div{
+        margin: 165px;
+    }
+    .white-div{
+        margin-top: 0;
+    }
+    
+}
