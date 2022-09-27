@@ -4,6 +4,7 @@ body {
   background-image: url(./assets/bg-main-mobile.png);
   background-position-y: -36vh;
   background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 
 header p {
